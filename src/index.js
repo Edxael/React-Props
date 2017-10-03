@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Profile from './comps/Profile.jsx';
+
 import ayuPic from './comps/img/ayu.jpg';
 import boraPic from './comps/img/bora.jpg';
 import rosePic from './comps/img/rose.jpg';
@@ -10,9 +12,6 @@ import taePic from './comps/img/tae.jpg';
 import hyoPic from './comps/img/hyo.jpg';
 import haruPic from './comps/img/haru.jpg';
 
-
-
-import Profile from './comps/Profile.jsx';
 
 const MainGatherComp = () => {
   const mainCont = { padding: "20px", background: "black" }
