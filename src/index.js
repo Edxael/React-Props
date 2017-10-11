@@ -23,14 +23,14 @@ const MainGatherComp = () => {
       <h1 style={titleSty}>Singers Profiles</h1>
 
       <div style={profsCont}>
-        <Profile name= "Ayumi Hamasaki" group= "Solist" country= "Japan" pic={ayuPic} />
-        <Profile name= "Bora Sis." group= "Sistar" country= "S. Korea" pic={boraPic} />
-        <Profile name= "Rose Park" group= "Black Pink" country= "S. Korea" pic={rosePic} />
-        <Profile name= "Mad Clown" group= "Solist" country= "S. Korea" pic={madPic} />
-        <Profile name= "Hani" group= "Exid" country= "S. Korea" pic={haniPic} />
-        <Profile name= "Taeyang" group= "Big-Bang" country= "S. Korea" pic={taePic} />
-        <Profile name= "Hyolyn" group= "Sistar" country= "S. Korea" pic={hyoPic} />
-        <Profile name= "Haruka Kodoma" group= "HTK-48" country= "Japan" pic={haruPic} />
+        <Profile name= "Ayumi Hamasaki." group= "Solist" country= "Japan" pic={ayuPic} />
+        <Profile name= "Bora." group= "Sistar" country= "S. Korea" pic={boraPic} />
+        <Profile name= "Rose Park." group= "Black Pink" country= "S. Korea" pic={rosePic} />
+        <Profile name= "Mad Clown." group= "Solist" country= "S. Korea" pic={madPic} />
+        <Profile name= "Hani." group= "Exid" country= "S. Korea" pic={haniPic} />
+        <Profile name= "Taeyang." group= "Big-Bang" country= "S. Korea" pic={taePic} />
+        <Profile name= "Hyolyn." group= "Sistar" country= "S. Korea" pic={hyoPic} />
+        <Profile name= "Haruka Kodoma." group= "HTK-48" country= "Japan" pic={haruPic} />
       </div>
 
     </div>
@@ -39,16 +39,3 @@ const MainGatherComp = () => {
 }
 
 ReactDOM.render(<MainGatherComp />, document.getElementById("root"));
-
-
-// import Meg from './comps/Comp1.jsx';
-// import Cmp2 from './comps/Comp2.jsx';
-// import Cmp3 from './comps/Comp3.jsx';
-
-// <Meg />
-//
-// <Cmp2 name="Hyolyn S." />
-// <Cmp2 name="Ayumi H." />
-//
-// <Cmp3 name="Mad Clown" color="tomato" />
-// <Cmp3 name="Taeyang" color="aquamarine"/>
